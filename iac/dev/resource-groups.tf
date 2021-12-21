@@ -8,3 +8,8 @@ resource "azurerm_resource_group" "hello-world-four" {
   name     = "hello-world-four"
   location = "East US 2"
 }
+
+resource "azurerm_resource_group" "hello-world-five" {
+  name     = "hello-world-five"
+  location = "East US 2"
+}
